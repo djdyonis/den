@@ -1,11 +1,9 @@
-den
-===
-
 JsonTable
+===
 
 Usage:
 
-
+```
 $data = [
     'key1' => 'val1',
     'key2' => 'val2',
@@ -19,3 +17,5 @@ echo JsonTable::render($data,[
         'data-table-id' => 'mytable'
     ]
 ]);
+```
+
